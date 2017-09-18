@@ -4,19 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>User Survey</title>
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 <body>
-    <p>You would rather play a sport than watch a sport.</p>
-    <p>There needs to be an itenarary to make the most of the time on vacation.</p>
-    <p>When in a group, you find it easy to take charge.</p>
-    <p>The smell of cigarrette smoke is does not bother you.</p>
-    <p>What happens in Vegas, stays in Vegas.</p>
-    <p>You cannot live without your car.</p>
-    <p>All animals should have the same rights as people.</p>
-    <p>Rules are made to be broken.</p>
-    <p>If your are doing something you like, you have to take a picture.</p>
-    <p>The more time you are outside the better.</p>
+    <div class="container">
+                
+        <h2>Survey Questions</h2>
+        <hr>
+
+        <h3><strong>About You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" name="" id="name" class="form-control" required="">
+
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name="" id="photo" class="form-control" required="">
+
+        <hr>
+
+        <h3><strong>Question 1</strong></h3>
+        <h4>You would rather play a sport than watch a sport.</h4>
+            <select data-placeholder="" class="chosen-select" id="q1" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q1_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>There needs to be an itenarary to make the most of the time on vacation.</h4>
+            <select data-placeholder="" class="chosen-select" id="q2" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q2_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>When in a group, you find it easy to take charge.</h4>
+            <select data-placeholder="" class="chosen-select" id="q3" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q3_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>The smell of cigarrette smoke does not bother you.</h4>
+            <select data-placeholder="" class="chosen-select" id="q4" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q4_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>What happens in Vegas, stays in Vegas.</h4>
+            <select data-placeholder="" class="chosen-select" id="q5" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q5_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>You cannot live without technology.</h4>
+            <select data-placeholder="" class="chosen-select" id="q6" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q6_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>All animals should have the same rights as people.</h4>
+            <select data-placeholder="" class="chosen-select" id="q7" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q7_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>Rules are made to be broken.</h4>
+            <select data-placeholder="" class="chosen-select" id="q8" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q8_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>If your are doing something you like, you have to take a picture of what you are doing.</h4>
+            <select data-placeholder="" class="chosen-select" id="q9" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q9_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>The more time you are outside the better.</h4>
+            <select data-placeholder="" class="chosen-select" id="q10" style="display: none;">
+                <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+            </select><div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q10_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friendsList">API Friends List</a> | <a href="https://github.com/isai-solis/Friend-Finder">GitHub Repo</a></p>
+            </div>
+        </footer>
     
+    </div>
 </body>
 </html>
