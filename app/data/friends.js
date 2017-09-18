@@ -1,7 +1,7 @@
-var tableArray = [
+var friendsArray = [
     {
         name: "Ahmed",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "https://images-na.ssl-images-amazon.com/images/I/41STwjiOA6L._SX300_.jpg",
         scores: [
             "5",
             "1",
@@ -97,5 +97,5 @@ var tableArray = [
     }
 ]
   
-module.exports = tableArray;
+module.exports = friendsArray;
   
