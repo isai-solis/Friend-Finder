@@ -18,3 +18,5 @@ The result is a person more similar to the user and a potetial friend.
 If the user fails to complete the survey before submitting, then an instructional modal will appear.
 
 ![Incomplete Survey Image](app/public/images/incomplete_survey_error_modal.PNG)
+
+The app is available by clicking [here](https://safe-lowlands-85592.herokuapp.com/ "Friend Finder URL").
